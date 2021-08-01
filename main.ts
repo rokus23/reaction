@@ -3,6 +3,9 @@ input.onButtonPressed(Button.A, function () {
         eredmeny = control.millis() - startMillis
     }
 })
+input.onButtonPressed(Button.AB, function () {
+    control.reset()
+})
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(eredmeny)
 })
